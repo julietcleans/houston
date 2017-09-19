@@ -9,12 +9,11 @@ self.addEventListener('activate', function(event) {
 importScripts('/cache-polyfill.js');
 self.addEventListener('install', function(e) {
 e.waitUntil(
-caches.open('https://houstonmotorcyclerepair.com').then(function(cache) {
+caches.open('https://www.julietcleans.com').then(function(cache) {
 return cache.addAll([
 '/',
 '/index.html',
-'webflow.css',
-'/wardsmobilemechanic.css',
+'wards.css',
 ]);
 })
 );
