@@ -18,6 +18,7 @@
 }
 
 .w-icon-nav-menu:before {
+  margin-top: auto;
   content: "\e602"
 }
 
