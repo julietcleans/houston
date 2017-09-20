@@ -18,7 +18,7 @@
 }
 
 .w-icon-nav-menu:before {
-  margin-top: inherit;
+  margin-top:inherit;
   content: "\e602"
 }
 
@@ -47,8 +47,6 @@ img {
   padding-top: 3px;
   padding-bottom: 3px
 }
-
-
 
 div.gallery {
   border: 1px solid #ccc;
@@ -170,8 +168,6 @@ h2 {
   font-weight: 300
 }
 
-
-
 h2 {
   margin: 0 0 27px;
   font-size: 38px;
@@ -192,7 +188,6 @@ h3 {
 h4,h5,h6 {
   line-height: 30px;
   color: #803374;
-
   font-size: 25px;
   text-decoration: underline;
   font-weight: 400
@@ -250,9 +245,7 @@ button {
 }
 
 @media screen and (max-width:991px) {
-  .w-container {
-    max-width: 728px
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -280,17 +273,6 @@ button {
   clear: both
 }
 
-.w-nav-brand,.w-nav-link {
-  background-color: #803374;
-  position: relative;
-  text-decoration: none
-}
-
-.w-nav-brand {
-  float: left;
-  color: #333
-}
-
 .w-nav-link {
   display: inline-block;
   vertical-align: top;
@@ -302,6 +284,7 @@ button {
 }
 
 .w-nav-menu {
+  margin-top: 20px;
   position: relative;
   float: right
 }
@@ -335,19 +318,14 @@ button {
 
   .w-nav-brand {
     background-color: rgb(217, 234, 241);
-    padding-left: 10px
+    padding-left: 10px;
+    float: left
   }
 }
 
 a {
   color: #fcfbf8;
   text-decoration: underline
-}
-
-.container {
-  margin-top: -50px;
-  padding-right: 70px;
-  padding-left: 70px
 }
 
 .social-section {
@@ -373,7 +351,8 @@ a {
   color: #2e2e2e;
   font-size: 32px;
   line-height: 22px;
-  font-weight: 500
+  font-weight: 500;
+  float: left
 }
 
 .section,.section.hero {
@@ -436,15 +415,16 @@ a {
 }
 
 .container-2 {
-  position: static;
-  margin-top: -40px;
+  
+  
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
   float: none;
   background-color: rgb(217, 234, 241)
 }
 
 .text-span-4 {
+  display: block;
   color: #985E7A
 }
 
@@ -479,10 +459,6 @@ a {
     text-shadow: none
   }
 
-  .container-2 {
-    background-color: rgb(217, 234, 241)
-  }
-
   .icon,.text-span-4 {
     color: #fff
   }
@@ -503,6 +479,7 @@ a {
   }
 
   .container {
+    margin-top: -80px;
     padding-right: 33px;
     padding-left: 33px
   }
@@ -512,9 +489,7 @@ a {
     padding-bottom: 26px
   }
 
-  .container-2 {
-    background-color: rgb(217, 234, 241)
-  }
+
 
   .icon,.text-span-4 {
     color: #fff
@@ -546,11 +521,6 @@ a {
     padding-left: 18px
   }
 
-  .container {
-    padding-right: 10px;
-    padding-left: 10px
-  }
-
   .brand {
     font-size: 30px
   }
@@ -558,10 +528,6 @@ a {
   .section {
     padding-top: 47px;
     padding-bottom: 47px
-  }
-
-  .container-2 {
-    background-color: rgb(217, 234, 241)
   }
 
   .icon,.text-span-4 {
@@ -602,13 +568,8 @@ a {
 
 .w-nav-brand,.w-nav-link {
   background-color: rgb(217, 234, 241);
-  position: relative;
+  
   text-decoration: underline
-}
-
-.w-nav-brand {
-  float: left;
-  color: #333
 }
 
 .w-nav-link {
@@ -774,10 +735,4 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #d9eaf1;
   padding: 20px;
-}
-}
-
-
-body {
-  
 }
