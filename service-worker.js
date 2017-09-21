@@ -18,5 +18,3 @@ return cache.addAll([
 })
 );
 });
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
